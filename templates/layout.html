@@ -8,17 +8,31 @@
 </head>
 <body>
 
-    <div class="navbar">
-        <a class="active" href="/">Home</a>
-        <a href="login">Search</a>
-        <a href="p2">Contact</a>
-        <a href="p3">Login</a>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
     </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
     {% block conteudo %}
     {% endblock %}
 
     <h1>&copy 2019 Luís Guerra</h1>
 
+    <script>
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    }
+
+</script>
 </body>
 </html>

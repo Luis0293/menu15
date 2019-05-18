@@ -42,3 +42,8 @@ body {
     right: 45px;
     font-size: 60px;
 }
+
+.span-btn {
+    font-size: 30px;
+    cursor: pointer;
+}

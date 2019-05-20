@@ -1,7 +1,11 @@
 body {
-    font-family: 'Stylish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
 }
 
+
+
+/*------------------- MENU CSS -------------------*/
 .overlay {
     height: 100%;
     width: 0;
@@ -9,10 +13,9 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 .overlay-content {
@@ -23,13 +26,24 @@ body {
     margin-top: 30px;
 }
 
-.overlay a {
-    padding: 10px;
+.content-a {
+    padding: 15px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 25px;
+    text-transform: uppercase;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.4s;
+}
+
+.content-home-a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #818181;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.4s;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -38,6 +52,8 @@ body {
 
 .overlay .closebtn {
     position: absolute;
+    text-decoration: none;
+    color: #999;
     top: 20px;
     right: 45px;
     font-size: 60px;
@@ -47,3 +63,44 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
+/*------------------- MENU CSS -------------------*/
+
+
+
+/*------------------- HOME -------------------*/
+.div1-content {
+    margin: 50px;
+    width: 60%;
+    background-color: #e8e8e8;
+    padding: 100px;
+}
+/*------------------- HOME -------------------*/
+
+
+
+/*------------------- LOGIN -------------------*/
+.login-div-session {
+    margin: 50px;
+    width: 60%;
+}
+
+.form {
+    margin: 50px;
+    width: 60%;
+    background-color: #e8e8e8;
+    padding: 100px;
+    border: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+input[type=submit] {
+    padding: 8px 20px;
+    background-color: #222;
+    color: #fff;
+}
+/*------------------- LOGIN -------------------*/

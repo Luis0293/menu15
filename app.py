@@ -10,13 +10,13 @@ def index():
 def login():
     return render_template('login.html')
 
-@app.route('/p2')
-def p2():
-    return render_template('p2.html')
+@app.route('/jogos')
+def jogos():
+    return render_template('jogos.html')
 
-@app.route('/p3')
-def p3():
-    return render_template('p3.html')
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
 
 
 if __name__ == '__main__':

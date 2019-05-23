@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: auto;
-    background: #5d4954;
+    background: rgba(0,0,0,.8);
 }
 
 .logo {
@@ -45,6 +45,7 @@ nav {
 
 .nav-links a:hover {
     color: #fff;
+    font-size: 18px;
 }
 /*------------------- MENU CSS -------------------*/
 
@@ -52,29 +53,38 @@ nav {
 
 
 
-/*------------------- HOME -------------------*/
-.div1-content {
-    margin: 50px;
+/*------------------- DEFAULT HOME -------------------*/
+.div-home-default {
+    margin-top: 5%;
+    margin-left: 15%;
     width: 60%;
-    background-color: #e8e8e8;
-    padding: 100px;
 }
-/*------------------- HOME -------------------*/
+
+.div-index-default {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 60%;
+    padding: 50px;
+    background-color: #dddddd;
+}
+/*------------------- DEFAULT HOME -------------------*/
 
 
 
 
 
-/*------------------- LOGIN */
-.login-div-session {
-    margin: 50px;
+/*------------------- LOGIN -------------------*/
+.div-content-home {
+    margin-top: 5%;
+    margin-left: 15%;
     width: 60%;
 }
 
 .form {
-    margin: 50px;
+    margin-top: 5%;
+    margin-left: 15%;
     width: 60%;
-    background-color: #e8e8e8;
+    background-color: pink;
     padding: 100px;
     border: none;
 }
@@ -101,17 +111,32 @@ input[type=submit] {
 .btn-up {
     position: fixed;
     right: 45px;
-    bottom: 45px;
+    bottom: 60px;
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: rgba(93,73,84,0.9);
+    background-color: rgba(0,0,0,0.9);
     color: #fff;
     padding: 10px 15px;
+    z-index: 2;
 }
 /*------------------- BOTÃO PARA CIMA -------------------*/
 
 
 
 
+
+/*------------------- FOOTER -------------------*/
+.footer {
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    text-align: center;
+}
+/*------------------- FOOTER -------------------*/
 

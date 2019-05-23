@@ -1,69 +1,54 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 5%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 
 
 
 /*------------------- MENU CSS -------------------*/
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0, 0.9);
-    overflow: hidden;
-    transition: 0.6s;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: auto;
+    background: #5d4954;
 }
 
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.content-a {
-    padding: 15px;
-    text-decoration: none;
-    font-size: 25px;
+.logo {
     text-transform: uppercase;
-    color: #818181;
-    display: block;
-    transition: 0.4s;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
 }
 
-.content-home-a {
-    padding: 30px;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #cecece;
     text-decoration: none;
-    font-size: 40px;
-    color: #818181;
-    display: block;
-    text-transform: uppercase;
-    transition: 0.4s;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: .3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    text-decoration: none;
-    color: #999;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-.span-btn {
-    font-size: 30px;
-    cursor: pointer;
+.nav-links a:hover {
+    color: #fff;
 }
 /*------------------- MENU CSS -------------------*/
+
+
 
 
 
@@ -78,7 +63,9 @@ body {
 
 
 
-/*------------------- LOGIN -------------------*/
+
+
+/*------------------- LOGIN */
 .login-div-session {
     margin: 50px;
     width: 60%;
@@ -96,6 +83,7 @@ input {
     border: none;
     outline: none;
     padding: 10px 20px;
+    /* Azul- #4B81E8 */
 }
 
 input[type=submit] {
@@ -104,3 +92,26 @@ input[type=submit] {
     color: #fff;
 }
 /*------------------- LOGIN -------------------*/
+
+
+
+
+
+/*------------------- BOTÃO PARA CIMA -------------------*/
+.btn-up {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(93,73,84,0.9);
+    color: #fff;
+    padding: 10px 15px;
+}
+/*------------------- BOTÃO PARA CIMA -------------------*/
+
+
+
+
+

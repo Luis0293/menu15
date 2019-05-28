@@ -128,7 +128,6 @@ input[type=submit] {
 
 /*------------------- FOOTER -------------------*/
 .footer {
-    position: fixed;
     left: 0;
     display: flex;
     bottom: 0;
@@ -168,7 +167,7 @@ input[type=submit] {
 }
 
 .info {
-    display: flex;
+
 }
 /*------------------- FOOTER -------------------*/
 

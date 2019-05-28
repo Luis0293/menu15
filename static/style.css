@@ -111,7 +111,7 @@ input[type=submit] {
 .btn-up {
     position: fixed;
     right: 45px;
-    bottom: 60px;
+    bottom: 120px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -131,12 +131,44 @@ input[type=submit] {
     position: fixed;
     left: 0;
     display: flex;
-    justify-content: space-around;
     bottom: 0;
+    justify-content: space-around;
     width: 100%;
     background-color: rgba(0,0,0,0.9);
     color: #fff;
     text-align: center;
+}
+
+.social p i {
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 20px 0px 20px 100px;
+}
+
+.p-facebook:hover {
+    color: #0253f4;
+}
+
+.p-instagram:hover {
+    color: #b51fb7;
+}
+
+.p-twitter:hover {
+    color: #0694d6;
+}
+
+.social {
+    display: flex;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px 0px 100px;
+}
+
+.info {
+    display: flex;
 }
 /*------------------- FOOTER -------------------*/
 

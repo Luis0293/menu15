@@ -146,14 +146,17 @@ input[type=submit] {
 
 .p-facebook:hover {
     color: #0253f4;
+    cursor: pointer;
 }
 
 .p-instagram:hover {
     color: #b51fb7;
+    cursor: pointer;
 }
 
 .p-twitter:hover {
     color: #0694d6;
+    cursor: pointer;
 }
 
 .social {

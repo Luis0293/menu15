@@ -84,7 +84,7 @@ nav {
     margin-left: 15%;
     width: 60%;
     background-color: #d9d9d9;
-    padding: 100px;
+    padding: 70px;
     border: none;
 }
 
@@ -92,7 +92,7 @@ input {
     border: none;
     outline: none;
     padding: 10px 20px;
-    /* Azul- #4B81E8 */
+    /* Azul - #4B81E8 */
 }
 
 input[type=submit] {
